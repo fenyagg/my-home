@@ -16,6 +16,6 @@ interface IYandexSuggestionOptions {
 
 interface Window {
   YaAuthSuggest: {
-    init: (config: IYandexSuggestionConfig, host: string, options: IYandexSuggestionOptions) => Promise<any>;
+    init: (config: IYandexSuggestionConfig, host: string, options?: IYandexSuggestionOptions) => Promise<any>;
   };
 }
